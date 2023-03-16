@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+ul.navbar-nav li.nav-item a.nav-link{
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+ul.navbar-nav li.nav-item a.nav-link:hover{
+  color: #d4d4d4;
+}
+.transition-5s{
+  transition: .5s ease;
+}
+.pencarian{
+  background-color: white;
+  border-radius: 25px;
+  width: 100%;
+  opacity: 0.5;
+  padding: 1% 7.5%;
+  color: #000;
+  font-size: 125%;
+}
+.search{
+  font-size: 1.2rem;
+  position: absolute;
+  z-index: 2;
+  top: 47.5%;
+  left: 15px;
+  transform: translateY(-50%);
+  background:none;
+  border: none
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+.owl-carousel .nav-button {
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.owl-carousel .nav-owl-button {
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+}
+.owl-carousel .owl-prev {
+  left: 0;
+}
+.owl-carousel .owl-next {
+  right: 0;
+}
+.kategori-item{
+  float: left;
+  width: 23%;
+  margin: 0 1%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  padding: 0.5%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+.kategori-item:hover{
+  transform: translateY(-5px);
+}
+.kategori-item a{
+  padding: 0.5%;
+}
+.trending{
+  margin: 0 7.5%;
+}
+.event-webinar{
+  margin: 1% 2% 3% 2%;
+  border-radius: 15px;
+  border: 0.5px solid gray;
+  box-shadow: 5% 5% 5% gray;
+  position: relative;
+}
+.trend-banner{
+  border-radius: 15px;
+  border: 0.5px solid gray;
+  box-shadow: 10px 10px 5px gray;
+}
+button.tag-webinar{
+  background-color: #CFC2FF;
+  border: none;
+  border-radius: 20px;
+  top: 0;
+}
+.form-login{
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.form-cover{
+  position: relative;
+}
+i.icon-login{
+  font-size: 1rem;
+  color: gray;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (min-width: 992px){   
+  h1.opening{
+    font-size: 4rem;
+    color: #000;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){   
+  h1.opening{
+    font-size:2.5rem;
+    color: #000;
+  }
+}
+@media screen and (max-width: 767px){
+  h1.opening{
+    font-size: 2rem;
+    color: #000;
+    font-style: italic;
+    font-weight: 600;
+  }
+}
